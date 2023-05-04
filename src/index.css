@@ -129,7 +129,7 @@ footer {
 
 @media (max-width: 600px) {
     .menu-icon {
-        display: none;
+        display: block;
         position: absolute;
         right: 10px;
         cursor: pointer;
