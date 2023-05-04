@@ -1,0 +1,117 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+
+    /* color-scheme: light dark;
+    color: #0a0a0ade;
+    background-color: white;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%; */
+}
+
+.navbar {
+    position: relative;
+    background-color: #b2a4ff;
+    height: 60px;
+    width: 100vw;
+    margin-right: 60px;
+}
+
+.nav-elements {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 20px;
+}
+
+.active {
+    color: #fdf7c3;
+}
+
+.hero-img {
+    background-color: #ff9071;
+    width: 100vw;
+    text-align: center;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+a:hover {
+    color: #ff61a2;
+}
+
+.project-article {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.inspiration-box {
+    display: inline-block;
+    margin: 5px;
+}
+
+body {
+    margin-bottom: 3rem;
+    /* display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh; */
+}
+/*
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+} */
+
+footer {
+    background-color: #b2a4ff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+/* 
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+    a:hover {
+        color: #747bff;
+    }
+    button {
+        background-color: #f9f9f9;
+    }
+} */
