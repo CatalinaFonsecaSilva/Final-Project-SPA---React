@@ -8,57 +8,59 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar">
-                <div className="menu-icon" onClick={handleShowNavbar}>
-                    <Hamburger />
-                </div>
+                <div className="nav-container">
+                    <div className="menu-icon" onClick={handleShowNavbar}>
+                        <Hamburger />
+                    </div>
 
-                <div className={`nav-elements  ${showNav && "active"}`}>
-                    <ul>
-                        <li>
-                            {" "}
-                            <NavLink
-                                className={({ isActive }) =>
-                                    isActive ? "link active" : "link"
-                                }
-                                to="/"
-                            >
-                                Home
-                            </NavLink>{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <NavLink
-                                className={({ isActive }) =>
-                                    isActive ? "link active" : "link"
-                                }
-                                to="/projects"
-                            >
-                                My Projects
-                            </NavLink>{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <NavLink
-                                className={({ isActive }) =>
-                                    isActive ? "link active" : "link"
-                                }
-                                to="/inspiration"
-                            >
-                                Inspiration
-                            </NavLink>{" "}
-                        </li>
-                        <li>
-                            {" "}
-                            <NavLink
-                                className={({ isActive }) =>
-                                    isActive ? "link active" : "link"
-                                }
-                                to="/about"
-                            >
-                                About me
-                            </NavLink>{" "}
-                        </li>
-                    </ul>
+                    <div className={`nav-elements  ${showNav && "active"}`}>
+                        <ul>
+                            <li>
+                                {" "}
+                                <NavLink
+                                    className={({ isActive }) =>
+                                        isActive ? "link active" : "link"
+                                    }
+                                    to="/"
+                                >
+                                    Home
+                                </NavLink>{" "}
+                            </li>
+                            <li>
+                                {" "}
+                                <NavLink
+                                    className={({ isActive }) =>
+                                        isActive ? "link active" : "link"
+                                    }
+                                    to="/projects"
+                                >
+                                    My Projects
+                                </NavLink>{" "}
+                            </li>
+                            <li>
+                                {" "}
+                                <NavLink
+                                    className={({ isActive }) =>
+                                        isActive ? "link active" : "link"
+                                    }
+                                    to="/inspiration"
+                                >
+                                    Inspiration
+                                </NavLink>{" "}
+                            </li>
+                            <li>
+                                {" "}
+                                <NavLink
+                                    className={({ isActive }) =>
+                                        isActive ? "link active" : "link"
+                                    }
+                                    to="/about"
+                                >
+                                    About me
+                                </NavLink>{" "}
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </>
