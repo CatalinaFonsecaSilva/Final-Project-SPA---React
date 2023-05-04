@@ -124,4 +124,7 @@ footer {
         flex-direction: column;
         text-align: right;
     }
+    a {
+        color: #b2a4ff;
+    }
 }
