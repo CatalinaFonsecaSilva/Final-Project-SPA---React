@@ -3,16 +3,6 @@
     line-height: 1.5;
     font-weight: 400;
     text-align: center;
-
-    /* color-scheme: light dark;
-    color: #0a0a0ade;
-    background-color: white;
-
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%; */
 }
 
 .navbar {
@@ -51,8 +41,6 @@
     display: inline;
     margin: 20px;
     margin-right: 50px;
-    font-size: 1rem;
-    text-align: center;
 }
 
 .hero-img {
@@ -60,21 +48,25 @@
             rgba(245, 217, 217, 0.5),
             rgba(247, 242, 242, 0.5)
         ),
-        url("./assets/images/top-view-tea-mug-yarn-basket-with-pine-cones.jpg");
+        url("./assets/images/cozy-background-wallpaper-with-yarn-knitting_169016-6305.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
     height: 20vh;
     text-align: center;
 }
+.pexel-tag {
+    color: #ffb4b4;
+}
 
 a {
-    font-weight: 500;
-    color: #646cff;
+    font-weight: 400;
+    color: #fdf7c3;
     text-decoration: inherit;
+    font-size: 1.3rem;
 }
 a:hover {
-    color: #ff61a2;
+    color: #ffb4b4;
 }
 
 .project-article {
@@ -89,35 +81,13 @@ a:hover {
 
 body {
     margin-bottom: 3rem;
-    /* display: flex;
-    place-items: center;
-    min-width: 320px;
-    min-height: 100vh; */
 }
 
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
+    text-align: center;
 }
-/*
-button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #1a1a1a;
-    cursor: pointer;
-    transition: border-color 0.25s;
-}
-button:hover {
-    border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-} */
 
 footer {
     background-color: #b2a4ff;

@@ -10,7 +10,11 @@ const Inspiration = () => {
             <section>
                 <h2> Inspiration</h2>
                 <p>
-                    <a target="blank" href="https://www.pexels.com">
+                    <a
+                        className="pexel-tag"
+                        target="blank"
+                        href="https://www.pexels.com"
+                    >
                         Photos provided by Pexels
                     </a>
                 </p>
