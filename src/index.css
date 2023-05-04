@@ -18,7 +18,7 @@
 .navbar {
     position: relative;
     background-color: #b2a4ff;
-    height: 60px;
+    height: 70px;
 }
 
 .nav-container {
@@ -32,35 +32,39 @@
 }
 .menu-icon {
     display: none;
+    color: #fdf7c3;
 }
 .nav-elements {
     position: absolute;
     top: 0;
     right: 0;
-    /* width: 0;
-    height: calc(100vh - 60px); */
     transition: all 0.3s ease-in;
     overflow: hidden;
 }
 
 .nav-elements ul {
-    /* display: flex; */
     justify-content: space-between;
     list-style-type: none;
 }
 
-.nav-elements ul li:not(:last-child) {
-    margin-right: 60px;
-}
-
-.navbar li {
+.nav-elements ul li {
     display: inline;
     margin: 20px;
+    margin-right: 50px;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .hero-img {
-    background-color: #ffb4b4;
-    width: 100vw;
+    background-image: linear-gradient(
+            rgba(245, 217, 217, 0.5),
+            rgba(247, 242, 242, 0.5)
+        ),
+        url("./assets/images/top-view-tea-mug-yarn-basket-with-pine-cones.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 20vh;
     text-align: center;
 }
 
@@ -90,12 +94,12 @@ body {
     min-width: 320px;
     min-height: 100vh; */
 }
-/*
+
 h1 {
     font-size: 3.2em;
     line-height: 1.1;
 }
-
+/*
 button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -127,15 +131,15 @@ footer {
     .menu-icon {
         display: block;
         position: absolute;
-        right: 10px;
+        right: 25px;
         cursor: pointer;
     }
 
     .nav-elements {
         position: absolute;
         right: 0;
-        top: 60px;
-        background-color: #ffdeb4;
+        top: 70px;
+        background-color: #fdf7c3;
         width: 0px;
         transition: all 0.5s ease-in;
         overflow: hidden;

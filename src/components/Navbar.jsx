@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="nav-container">
                     <div className="menu-icon" onClick={handleShowNavbar}>
-                        <Hamburger />
+                        <Hamburger rounded />
                     </div>
 
                     <div className={`nav-elements  ${showNav && "active"}`}>
