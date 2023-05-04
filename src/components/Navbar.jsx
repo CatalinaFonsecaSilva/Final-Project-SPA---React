@@ -16,7 +16,6 @@ const Navbar = () => {
                     <div className={`nav-elements  ${showNav && "active"}`}>
                         <ul>
                             <li>
-                                {" "}
                                 <NavLink
                                     className={({ isActive }) =>
                                         isActive ? "link active" : "link"
@@ -24,10 +23,9 @@ const Navbar = () => {
                                     to="/"
                                 >
                                     Home
-                                </NavLink>{" "}
+                                </NavLink>
                             </li>
                             <li>
-                                {" "}
                                 <NavLink
                                     className={({ isActive }) =>
                                         isActive ? "link active" : "link"
@@ -35,10 +33,9 @@ const Navbar = () => {
                                     to="/projects"
                                 >
                                     My Projects
-                                </NavLink>{" "}
+                                </NavLink>
                             </li>
                             <li>
-                                {" "}
                                 <NavLink
                                     className={({ isActive }) =>
                                         isActive ? "link active" : "link"
@@ -46,10 +43,9 @@ const Navbar = () => {
                                     to="/inspiration"
                                 >
                                     Inspiration
-                                </NavLink>{" "}
+                                </NavLink>
                             </li>
                             <li>
-                                {" "}
                                 <NavLink
                                     className={({ isActive }) =>
                                         isActive ? "link active" : "link"
@@ -57,7 +53,7 @@ const Navbar = () => {
                                     to="/about"
                                 >
                                     About me
-                                </NavLink>{" "}
+                                </NavLink>
                             </li>
                         </ul>
                     </div>

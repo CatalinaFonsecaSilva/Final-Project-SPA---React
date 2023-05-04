@@ -58,12 +58,8 @@
     margin: 20px;
 }
 
-.active {
-    color: #fdf7c3;
-}
-
 .hero-img {
-    background-color: #ff9071;
+    background-color: #ffb4b4;
     width: 100vw;
     text-align: center;
 }
@@ -139,19 +135,19 @@ footer {
         position: absolute;
         right: 0;
         top: 60px;
-        background-color: #fef7e5;
+        background-color: #ffdeb4;
         width: 0px;
-        height: calc(100vh - 60px);
-        transition: all 0.3s ease-in;
+        transition: all 0.5s ease-in;
         overflow: hidden;
     }
 
     .nav-elements.active {
-        width: 270px;
+        width: 220px;
     }
 
     .nav-elements ul {
         display: flex;
         flex-direction: column;
+        text-align: right;
     }
 }
