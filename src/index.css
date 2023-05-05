@@ -21,9 +21,10 @@ h1 {
 }
 
 .navbar {
-    position: relative;
+    /* position: relative; */
     background-color: #b2a4ff;
     height: 70px;
+    width: 100%;
 }
 
 .nav-container {
@@ -40,16 +41,18 @@ h1 {
     color: #fdf7c3;
 }
 .nav-elements {
-    position: absolute;
-    top: 0;
-    right: 0;
+    /* position: absolute; */
+    /* top: 0;
+    right: 80px; */
     transition: all 0.3s ease-in;
     overflow: hidden;
+    justify-content: center;
 }
 
 .nav-elements ul {
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     list-style-type: none;
+    margin: 15px auto;
 }
 
 .nav-elements ul li {
@@ -70,6 +73,17 @@ h1 {
     height: 120px;
     width: 100%;
 }
+section {
+    margin-top: 30px;
+}
+
+p {
+    margin: 20px;
+}
+
+img {
+    margin: 10px;
+}
 .pexel-tag {
     color: #ffb4b4;
 }
@@ -86,6 +100,10 @@ a:hover {
 
 .projects-section {
     display: flex;
+}
+
+.title-projects {
+    margin-top: 30px;
 }
 .projects-section img {
     object-fit: cover;

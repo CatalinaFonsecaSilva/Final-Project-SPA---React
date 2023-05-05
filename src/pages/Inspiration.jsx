@@ -7,7 +7,7 @@ const Inspiration = () => {
     return (
         <div>
             {" "}
-            <section>
+            <section className="inpiration-section">
                 <h2> Inspiration</h2>
                 <p>
                     <a
