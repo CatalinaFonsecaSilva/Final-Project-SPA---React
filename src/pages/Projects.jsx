@@ -8,7 +8,10 @@ const Projects = () => {
                 <article className="project-article">
                     <h3>Current Project</h3>
 
-                    <img src="src/assets/images/pullover_M.jpeg" alt="" />
+                    <img
+                        src="src/assets/images/pullover_M.jpeg"
+                        alt="knitted pullover"
+                    />
                     <p>
                         Cat ipsum dolor sit amet, autem for in, and officia for
                         aliqua. Veniam. Magni vitae dolor, so consequatur
@@ -18,7 +21,10 @@ const Projects = () => {
 
                 <article className="project-article">
                     <h3>Funniest Project</h3>
-                    <img src="src/assets/images/headband.jpg" alt="" />
+                    <img
+                        src="src/assets/images/headband.jpg"
+                        alt="knitted headband"
+                    />
                     <p>
                         Cat ipsum dolor sit amet, autem for in, and officia for
                         aliqua. Veniam. Magni vitae dolor, so consequatur
@@ -27,7 +33,10 @@ const Projects = () => {
                 </article>
                 <article className="project-article">
                     <h3>Cutest Project</h3>
-                    <img src="src/assets/images/baby_kit.jpg" alt="" />
+                    <img
+                        src="src/assets/images/baby_kit.jpg"
+                        alt="knitted baby socks and bennie"
+                    />
                     <p>
                         Cat ipsum dolor sit amet, autem for in, and officia for
                         aliqua. Veniam. Magni vitae dolor, so consequatur
