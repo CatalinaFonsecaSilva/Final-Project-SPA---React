@@ -1,7 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
+    text-align: center;
+}
+
+body {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
     text-align: center;
 }
 
@@ -51,9 +66,9 @@
         url("./assets/images/cozy-background-wallpaper-with-yarn-knitting_169016-6305.avif");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100vw;
-    height: 20vh;
-    text-align: center;
+    background-size: 100%;
+    height: 120px;
+    width: 100%;
 }
 .pexel-tag {
     color: #ffb4b4;
@@ -69,8 +84,17 @@ a:hover {
     color: #ffb4b4;
 }
 
+.projects-section {
+    display: flex;
+}
+.projects-section img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
 .project-article {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 20px;
 }
 
@@ -79,25 +103,21 @@ a:hover {
     margin: 5px;
 }
 
-body {
-    margin-bottom: 3rem;
+.about-section img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
-
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
-    text-align: center;
-}
-
 footer {
     background-color: #b2a4ff;
     padding: 10px;
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
     .menu-icon {
         display: block;
         position: absolute;
@@ -126,5 +146,9 @@ footer {
     }
     a {
         color: #b2a4ff;
+    }
+
+    .projects-section {
+        display: inline-block;
     }
 }

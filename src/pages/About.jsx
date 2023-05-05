@@ -2,8 +2,10 @@ import React from "react";
 
 const About = () => {
     return (
-        <section>
+        <section className="about-section">
             <h2>About me</h2>
+
+            <img src="src/assets/images/yarn-hero2.jpeg" alt="" />
 
             <p>
                 Cat ipsum dolor sit amet, autem for in, and officia for aliqua.
