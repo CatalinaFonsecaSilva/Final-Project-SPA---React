@@ -1,4 +1,5 @@
 import React from "react";
+import Carousel from "../components/Carousel";
 
 const Home = () => {
     return (
@@ -11,6 +12,8 @@ const Home = () => {
                 id aliquid. In consequuntur et for nihil suscipit for
                 perspiciatis. Ut sed and pariatur ipsum, dolores nemo.
             </p>
+
+            <Carousel />
         </section>
     );
 };
