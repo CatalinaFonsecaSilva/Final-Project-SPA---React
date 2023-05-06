@@ -73,6 +73,20 @@ h1 {
     height: 120px;
     width: 100%;
 }
+
+.carousel.container {
+    width: 250px;
+    height: 250px;
+}
+.active-slide {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.hidde {
+    display: none;
+}
 section {
     margin-top: 30px;
 }
