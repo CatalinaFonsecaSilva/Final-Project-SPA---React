@@ -7,6 +7,8 @@ export const AppContext = React.createContext();
 const AppContainer = (props) => {
     const [data, setData] = useState([]); //state für die Data
     const [showNav, setShowNav] = useState(false);
+    const [index, setIndex] = useState(0);
+    const length = 3;
 
     //1. Pexels API - Abfrage
     const client = createClient(
@@ -34,6 +36,17 @@ const AppContainer = (props) => {
         setShowNav(!showNav);
     };
 
+    //3. Carousel
+    const handleForwards = () => {
+        let newIndex = index + 1;
+        setIndex(newIndex <= length ? newIndex : 0);
+    };
+
+    const handleBackwards = () => {
+        let newIndex = index - 1;
+        setIndex(newIndex < 0 ? length : newIndex);
+    };
+
     return (
         <AppContext.Provider
             value={{
@@ -42,6 +55,9 @@ const AppContainer = (props) => {
                 showNav,
                 setShowNav,
                 handleShowNavbar,
+                index,
+                handleBackwards,
+                handleForwards,
             }}
         >
             {props.children}

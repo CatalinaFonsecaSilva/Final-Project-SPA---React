@@ -22,7 +22,9 @@ const Inspiration = () => {
                     {" "}
                     Cat ipsum dolor sit amet, autem for in, and officia for
                     aliqua. Veniam. Magni vitae dolor, so consequatur excepteur
-                    occaecat sed. Modi.
+                    occaecat sed. Modi. Cat ipsum dolor sit amet, autem for in,
+                    and officia for aliqua. Veniam. Magni vitae dolor, so
+                    consequatur excepteur occaecat sed. Modi.
                 </p>
             </section>
             {/* <img

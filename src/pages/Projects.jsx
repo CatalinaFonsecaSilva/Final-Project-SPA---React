@@ -4,6 +4,13 @@ const Projects = () => {
     return (
         <div>
             <h2 className="title-projects"> My Projects</h2>
+            <p>
+                Cat ipsum dolor sit amet, autem for in, and officia for aliqua.
+                Veniam. Magni vitae dolor, so consequatur excepteur occaecat
+                sed. Modi. Cat ipsum dolor sit amet, autem for in, and officia
+                for aliqua. Veniam. Magni vitae dolor, so consequatur excepteur
+                occaecat sed. Modi.
+            </p>
             <section className="projects-section">
                 <article className="project-article">
                     <h3>Current Project</h3>

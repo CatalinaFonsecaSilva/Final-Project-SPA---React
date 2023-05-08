@@ -1,19 +1,8 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../components/AppContainer";
 
 const Carousel = () => {
-    const [index, setIndex] = useState(0);
-    const length = 3;
-    let key;
-
-    const handleForwards = () => {
-        let newIndex = index + 1;
-        setIndex(newIndex <= length ? newIndex : 0);
-    };
-
-    const handleBackwards = () => {
-        let newIndex = index - 1;
-        setIndex(newIndex < 0 ? length : newIndex);
-    };
+    const { index, handleForwards, handleBackwards } = useContext(AppContext);
 
     return (
         <section className="carousel-container">
