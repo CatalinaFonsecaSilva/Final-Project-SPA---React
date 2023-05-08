@@ -35,8 +35,8 @@ const Carousel = () => {
                 />{" "}
             </div>
             <div className="carousel-buttons">
-                <button onClick={handleBackwards}> ⬅️ Previous </button>
-                <button onClick={handleForwards}> Next ➡️</button>
+                <button onClick={handleBackwards}> ← Previous </button>
+                <button onClick={handleForwards}> Next → </button>
             </div>
         </section>
     );

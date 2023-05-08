@@ -1,3 +1,4 @@
+/* 1. General */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +11,34 @@
     text-align: center;
 }
 
+section {
+    margin-top: 30px;
+}
+
+h2,
+h3 {
+    font-weight: 500;
+}
+
+p {
+    margin: 20px;
+}
+
+img {
+    margin: 10px;
+}
+
+a {
+    font-weight: 400;
+    color: #fdf7c3;
+    text-decoration: inherit;
+    font-size: 1.3rem;
+}
+a:hover {
+    color: #ffb4b4;
+}
+
+/* 2. Navbar */
 .navbar {
     /* position: relative; */
     background-color: #b2a4ff;
@@ -45,10 +74,11 @@
 
 .nav-elements ul li {
     display: inline;
-    margin: 20px;
+    margin: 15px;
     margin-right: 50px;
 }
 
+/* 3. Hero */
 .hero-img {
     background-image: linear-gradient(
             rgba(245, 217, 217, 0.5),
@@ -72,6 +102,7 @@ h1 {
     font-weight: 500;
 }
 
+/* 4. Home Page - Carousel */
 .home-section {
     margin-bottom: 100px;
 }
@@ -111,36 +142,18 @@ h1 {
 .hidde {
     display: none;
 }
-section {
-    margin-top: 30px;
-}
 
-h2,
-h3 {
-    font-weight: 500;
-}
-
-p {
-    margin: 20px;
-}
-
-img {
-    margin: 10px;
-}
+/* 5. Inspiration  page*/
 .pexel-tag {
     color: #ffb4b4;
 }
 
-a {
-    font-weight: 400;
-    color: #fdf7c3;
-    text-decoration: inherit;
-    font-size: 1.3rem;
-}
-a:hover {
-    color: #ffb4b4;
+.inspiration-box {
+    display: inline-block;
+    margin: 5px;
 }
 
+/* 6. Projects page */
 .projects-section {
     display: flex;
 }
@@ -159,26 +172,30 @@ a:hover {
     margin: 20px;
 }
 
-.inspiration-box {
-    display: inline-block;
-    margin: 5px;
-}
-
+/* 7. About page */
 .about-section img {
     object-fit: cover;
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
+
+/* 8. Footer  */
 footer {
     background-color: #b2a4ff;
     padding: 30px;
-    /* position: fixed; */
-    /* bottom: 0; */
-    /* width: 100%; */
+    display: flex;
     margin-top: 100px;
+    justify-content: space-around;
 }
 
+footer a {
+    margin-top: 15px;
+    color: #fdf7c3;
+    font-weight: 500;
+}
+
+/* 9. Media query  */
 @media (max-width: 640px) {
     .menu-icon {
         display: block;
@@ -190,7 +207,7 @@ footer {
     .nav-elements {
         position: absolute;
         right: 0;
-        top: 70px;
+        top: 190px;
         background-color: #fdf7c3;
         width: 0px;
         transition: all 0.5s ease-in;

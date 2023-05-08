@@ -5,13 +5,20 @@ import Navbar from "../components/Navbar";
 const SharedLayout = () => {
     return (
         <div>
-            <Navbar />
-
             <div className="hero-img">
                 <h1>The Endless Yarn 🧶</h1>
             </div>
+            <Navbar />
             <Outlet />
-            <footer> By CataFS 2023</footer>
+            <footer>
+                <a
+                    target="_blank"
+                    href="https://github.com/CatalinaFonsecaSilva/Final-Project-SPA---React"
+                >
+                    GitHub
+                </a>
+                <p> CaTaLiNa © 2023</p>
+            </footer>
         </div>
     );
 };
