@@ -35,8 +35,20 @@ const Carousel = () => {
                 />{" "}
             </div>
             <div className="carousel-buttons">
-                <button onClick={handleBackwards}> ← Previous </button>
-                <button onClick={handleForwards}> Next → </button>
+                <button
+                    aria-label="button image carousel - previous image"
+                    onClick={handleBackwards}
+                >
+                    {" "}
+                    ← Previous{" "}
+                </button>
+                <button
+                    aria-label="button image carousel - next image"
+                    onClick={handleForwards}
+                >
+                    {" "}
+                    Next →{" "}
+                </button>
             </div>
         </section>
     );

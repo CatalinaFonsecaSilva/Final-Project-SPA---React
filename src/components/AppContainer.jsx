@@ -14,7 +14,7 @@ const AppContainer = (props) => {
     const client = createClient(
         "R0cquR0l8PZjLvSvssOxjOE1aSJX86FDwr7OFGKlHHBIMJPyfHpTSKMZ"
     );
-    const query = "Yarn";
+    const query = "Knit";
 
     useEffect(() => {
         const result = client.photos

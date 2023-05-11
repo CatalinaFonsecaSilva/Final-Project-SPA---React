@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="nav-container">
                     <div className="menu-icon" onClick={handleShowNavbar}>
-                        <Hamburger rounded />
+                        <Hamburger rounded aria-label="icon menu mobil view" />
                     </div>
 
                     <div className={`nav-elements  ${showNav && "active"}`}>
@@ -21,6 +21,7 @@ const Navbar = () => {
                                         isActive ? "link active" : "link"
                                     }
                                     to="/"
+                                    aria-label="link menu home"
                                 >
                                     Home
                                 </NavLink>
@@ -31,6 +32,7 @@ const Navbar = () => {
                                         isActive ? "link active" : "link"
                                     }
                                     to="/projects"
+                                    aria-label="link menu my projects"
                                 >
                                     My Projects
                                 </NavLink>
@@ -41,6 +43,7 @@ const Navbar = () => {
                                         isActive ? "link active" : "link"
                                     }
                                     to="/inspiration"
+                                    aria-label="link menu inspiration"
                                 >
                                     Inspiration
                                 </NavLink>
@@ -51,6 +54,7 @@ const Navbar = () => {
                                         isActive ? "link active" : "link"
                                     }
                                     to="/about"
+                                    aria-label="link menu about me"
                                 >
                                     About me
                                 </NavLink>
