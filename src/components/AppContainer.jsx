@@ -14,6 +14,8 @@ const AppContainer = (props) => {
     const client = createClient(
         "R0cquR0l8PZjLvSvssOxjOE1aSJX86FDwr7OFGKlHHBIMJPyfHpTSKMZ"
     );
+    const AP_KEY = import.meta.env.VITE_APO_KEY;
+
     const query = "Knit";
 
     useEffect(() => {
