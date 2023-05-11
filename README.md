@@ -1,6 +1,6 @@
 # The Endless Yarn
 
-The Endless Yarn is a personal project done during my learning period at DCI _(https://digitalcareerinstitute.org/de/)_.
+The Endless Yarn is a personal project done during my learning period at DCI _(https://digitalcareerinstitute.org/de/)_ to finalize the Single Page Application module.
 
 ## Objective:
 
