@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "../components/Carousel";
+import About from "../pages/About";
 
 const Home = () => {
     return (
@@ -14,6 +15,10 @@ const Home = () => {
             </p>
 
             <Carousel />
+
+            <div className="about-home-section">
+                <About />
+            </div>
         </section>
     );
 };

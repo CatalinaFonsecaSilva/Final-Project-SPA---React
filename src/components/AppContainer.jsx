@@ -11,10 +11,11 @@ const AppContainer = (props) => {
     const length = 3;
 
     //1. Pexels API - Abfrage
+    const API_KEY = import.meta.env.VITE_API_KEY;
+
     const client = createClient(
         "R0cquR0l8PZjLvSvssOxjOE1aSJX86FDwr7OFGKlHHBIMJPyfHpTSKMZ"
     );
-    const API_KEY = import.meta.env.VITE_APO_KEY;
 
     const query = "Knit";
 
