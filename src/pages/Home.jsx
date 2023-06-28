@@ -16,9 +16,9 @@ const Home = () => {
 
             <Carousel />
 
-            <div className="about-home-section">
+            <article className="about-home-section">
                 <About />
-            </div>
+            </article>
         </section>
     );
 };
