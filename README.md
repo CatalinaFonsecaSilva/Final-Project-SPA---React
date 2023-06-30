@@ -11,10 +11,11 @@ The goal of the project is to create a responsive website applying my knowledge 
 1. **App Container**:
    It contains all the logic of the website. The components have access to this information through the Hook `useContext`.
 
-2. **Navbar**: Responsive Navbar which in mobile view shows an interactive hamburger menu.
+2. **Navbar**:
+   Responsive Navbar which in mobile view shows an interactive hamburger menu.
 
-3. **Carousel**:
-   Component that allows by using two buttons `next` and `previous` to visualize images in a predetermined order.
+4. **Carousel**:
+   Component that allows to visualize images in a predetermined order by using two buttons `next` and `previous` .
 
-4. **ProjectsData**:
+5. **ProjectsData**:
    Under construction... It will contain the information of the woven projects that I have realized in my free time.
