@@ -17,5 +17,5 @@ The goal of the project is to create a responsive website applying my knowledge 
 4. **Carousel**:
    Component that allows to visualize images in a predetermined order by using two buttons `next` and `previous` .
 
-5. **ProjectsData**:
-   Under construction... It will contain the information of the woven projects that I have realized in my free time.
+5. **Projects**:
+   Under construction... It will contain the information of the knitted projects that I have realized in my free time.
