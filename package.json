@@ -3,6 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
+    "homepage": "https://catalinaf-s.github.io/Final-Project-SPA---React/",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
