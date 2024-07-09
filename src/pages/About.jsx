@@ -1,5 +1,5 @@
 import React from "react";
-import yarnHero from "./assets/images/yarn-hero2.jpeg";
+import yarnHero from "../assets/images/yarn-hero2.jpeg";
 
 const About = () => {
     return (
