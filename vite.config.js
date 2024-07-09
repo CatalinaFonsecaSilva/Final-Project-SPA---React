@@ -6,4 +6,9 @@ import commonjs from "@rollup/plugin-commonjs";
 export default defineConfig({
     base: "/Final-Project-SPA-React/",
     plugins: [react(), commonjs()],
+    build: {
+        commonjsOptions: {
+            transformMixedEsModules: true,
+        },
+    },
 });
