@@ -32,7 +32,7 @@ const Inspiration = () => {
         alt={cachedData.photos[1].alt}
         width="200px"
     /> */}
-            {cachedData.photos.map((photo, index) => {
+            {cachedData.map((photo, index) => {
                 return (
                     <div className="inspiration-box" key={index + 1}>
                         <img src={photo.src.tiny} alt={photo.alt} />
