@@ -6,7 +6,7 @@ const About = () => {
             <h2>About me</h2>
 
             <img
-                src="src/assets/images/yarn-hero2.jpeg"
+                src="./assets/images/yarn-hero2.jpeg"
                 alt="image person with yarn on arms"
             />
 
