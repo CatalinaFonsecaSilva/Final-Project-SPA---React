@@ -7,7 +7,7 @@ const About = () => {
             <h2>About me</h2>
 
             <img
-                src="public/images/yarn-hero2.jpeg"
+                src="/images/yarn-hero2.jpeg"
                 alt="image person with yarn on arms"
             />
 
