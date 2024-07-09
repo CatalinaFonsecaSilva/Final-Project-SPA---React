@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useMemo } from "react";
-import { createClient } from "pexels";
+// import { createClient } from "pexels";
 
 // Context erstellen
 export const AppContext = React.createContext();
@@ -39,7 +39,7 @@ const AppContainer = (props) => {
                     }
                 );
                 const result = await response.json();
-                console.log("Test:", result);
+                // console.log("Test:", result);
                 setData(result.photos);
             } catch (error) {
                 console.error("Error fetching photos:", error);
@@ -52,7 +52,7 @@ const AppContainer = (props) => {
     const cachedData = useMemo(() => {
         return data;
     }, [data]);
-    console.log("cachedData:  ", cachedData);
+    // console.log("cachedData:  ", cachedData);
 
     //2. Handle Show Navbar
     const handleShowNavbar = () => {

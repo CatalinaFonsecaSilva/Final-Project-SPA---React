@@ -1,14 +1,12 @@
 import React from "react";
+import yarnHero from "./assets/images/yarn-hero2.jpeg";
 
 const About = () => {
     return (
         <section className="about-section">
             <h2>About me</h2>
 
-            <img
-                src="./assets/images/yarn-hero2.jpeg"
-                alt="image person with yarn on arms"
-            />
+            <img src={yarnHero} alt="image person with yarn on arms" />
 
             <p>
                 Cat ipsum dolor sit amet, autem for in, and officia for aliqua.
