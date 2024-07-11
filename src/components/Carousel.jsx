@@ -8,22 +8,31 @@ const Carousel = () => {
         <section className="carousel-container">
             <div className={index == 0 ? "active-slide" : "hidde"}>
                 {" "}
-                <img src="/images/baby_kit.jpg" alt="knitted baby kit" />
+                <img
+                    src="/Final-Project-SPA-React/images/baby_kit.jpg"
+                    alt="knitted baby kit"
+                />
             </div>
             <div className={index == 1 ? "active-slide" : "hidde"}>
                 {" "}
-                <img src="/images/headband.jpg" alt="knitted headband" />
+                <img
+                    src="/Final-Project-SPA-React/images/headband.jpg"
+                    alt="knitted headband"
+                />
             </div>
             <div className={index == 2 ? "active-slide" : "hidde"}>
                 {" "}
                 <img
-                    src="/images/pullover_M.jpeg"
+                    src="/Final-Project-SPA-React/images/pullover_M.jpeg"
                     alt="knitted pullover"
                 />{" "}
             </div>
             <div className={index == 3 ? "active-slide" : "hidde"}>
                 {" "}
-                <img src="/images/socken_M.jpg" alt="knitted socken" />{" "}
+                <img
+                    src="/Final-Project-SPA-React/images/socken_M.jpg"
+                    alt="knitted socken"
+                />{" "}
             </div>
             <div className="carousel-buttons">
                 <button
