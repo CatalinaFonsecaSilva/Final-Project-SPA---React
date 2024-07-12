@@ -7,11 +7,9 @@ const Home = () => {
         <section className="home-section">
             <h2>Welcome to my page!</h2>
             <p>
-                Cat ipsum dolor sit amet, autem for in, and officia for aliqua.
-                Veniam. Magni vitae dolor, so consequatur excepteur occaecat
-                sed. Modi. Suscipit. Irure error aliqua perspiciatis, for magnam
-                id aliquid. In consequuntur et for nihil suscipit for
-                perspiciatis. Ut sed and pariatur ipsum, dolores nemo.
+                After a long time of working and making small arrangements,
+                finally comes to light this project that I had in mind several
+                years ago.
             </p>
 
             <Carousel />
