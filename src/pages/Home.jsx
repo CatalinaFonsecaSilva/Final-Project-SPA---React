@@ -9,7 +9,10 @@ const Home = () => {
             <p>
                 After a long time of working and making small arrangements,
                 finally comes to light this project that I had in mind several
-                years ago.
+                years ago. Here you'll find a collection of my handiwork since I
+                first started learning to knit. This project is also a great way
+                for me to brush up on my skills as a full-stack
+                developer...everything under the sun 😊.
             </p>
 
             <Carousel />
