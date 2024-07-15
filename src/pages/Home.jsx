@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "../components/Carousel";
 import About from "../pages/About";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -18,7 +19,9 @@ const Home = () => {
             <Carousel />
 
             <article className="about-home-section">
-                <About />
+                <Link to="/about">
+                    <About />
+                </Link>
             </article>
         </section>
     );
