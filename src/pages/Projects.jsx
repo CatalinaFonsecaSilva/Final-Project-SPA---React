@@ -25,10 +25,7 @@ const Projects = () => {
 
                 <article className="project-article">
                     <h3>Funniest Project</h3>
-                    <img
-                        src="/Final-Project-SPA-React/images/headband.jpg"
-                        alt="knitted headband"
-                    />
+                    <img src="/images/headband.jpg" alt="knitted headband" />
                     <p>
                         Cat ipsum dolor sit amet, autem for in, and officia for
                         aliqua. Veniam. Magni vitae dolor, so consequatur
@@ -38,7 +35,7 @@ const Projects = () => {
                 <article className="project-article">
                     <h3>Cutest Project</h3>
                     <img
-                        src="/Final-Project-SPA-React/images/baby_kit.jpg"
+                        src="/images/baby_kit.jpg"
                         alt="knitted baby socks and bennie"
                     />
                     <p>
