@@ -32,7 +32,7 @@ The goal of this project is to redesign the original project [The-endless-yarn](
 - 🧶 About me
 
 ## Desktop view
-![Desktop view](TEY_DesktopView.png)
+![Desktop view](Desktop_view.png)
 
 ## Mobile view
-![Mobile view](TEY_MobileView.png)
+![Mobile view](Mobile_view.png)
