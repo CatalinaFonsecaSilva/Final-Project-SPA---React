@@ -15,10 +15,7 @@ const Projects = () => {
                 <article className="project-article">
                     <h3>Current Project</h3>
 
-                    <img
-                        src="/Final-Project-SPA-React/images/pullover_M.jpeg"
-                        alt="knitted pullover"
-                    />
+                    <img src="/images/pullover_M.jpeg" alt="knitted pullover" />
                     <p>
                         Cat ipsum dolor sit amet, autem for in, and officia for
                         aliqua. Veniam. Magni vitae dolor, so consequatur

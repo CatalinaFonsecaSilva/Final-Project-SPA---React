@@ -13,7 +13,7 @@ const SharedLayout = () => {
             <footer>
                 <a
                     target="_blank"
-                    href="https://github.com/CatalinaFonsecaSilva/Final-Project-SPA---React"
+                    href="https://github.com/CatalinaFonsecaSilva/Final-Project-SPA-React"
                 >
                     GitHub
                 </a>
