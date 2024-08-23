@@ -12,16 +12,12 @@ const About = () => {
             />
 
             <p>
-                Cat ipsum dolor sit amet, autem for in, and officia for aliqua.
-                Veniam. Magni vitae dolor, so consequatur excepteur occaecat
-                sed. Modi. Suscipit. Irure error aliqua perspiciatis, for magnam
-                id aliquid. In consequuntur et for nihil suscipit for
-                perspiciatis. Vitae nequeporro illum voluptatem. Cat ipsum dolor
-                sit amet, autem for in, and officia for aliqua. Veniam. Magni
-                vitae dolor, so consequatur excepteur occaecat sed. Modi. Cat
-                ipsum dolor sit amet, autem for in, and officia for aliqua.
-                Veniam. Magni vitae dolor, so consequatur excepteur occaecat
-                sed. Modi.
+                Hi! I am Catalina. I am a just normal, kind, creative and
+                curious person who really enjoys life with all its little
+                details. Among my long list of hobbies, knitting is one of my
+                favorites. It has given me moments of peace and meditation in
+                hard moments of the life. Knitting has helped me to know myself
+                better and to discover new skills and values of myself.
             </p>
         </section>
     );
