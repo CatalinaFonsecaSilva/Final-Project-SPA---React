@@ -8,7 +8,11 @@ const Carousel = () => {
         <section className="carousel-container">
             <div className={index == 0 ? "active-slide" : "hidde"}>
                 {" "}
-                <img src="/images/baby_kit.jpg" alt="knitted baby kit" />
+                <img
+                    fetchpriority="high"
+                    src="/images/baby_kit.jpg"
+                    alt="knitted baby kit"
+                />
             </div>
             <div className={index == 1 ? "active-slide" : "hidde"}>
                 {" "}
