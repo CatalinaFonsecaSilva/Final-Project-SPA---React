@@ -116,6 +116,10 @@ h1 {
     background-color: #fdf7c3;
 }
 
+.home-section p {
+    padding: 0 20%;
+}
+
 .carousel.container {
     display: flex;
 }
@@ -164,6 +168,9 @@ h1 {
 }
 
 /* 6. Projects page */
+.title-projects + p {
+    padding: 0 10%;
+}
 .projects-section {
     display: flex;
 }
@@ -196,6 +203,9 @@ h1 {
     padding-top: 70px;
 }
 
+.about-section p {
+    padding: 0 20%;
+}
 /* 8. Footer  */
 footer {
     background-color: #b2a4ff;
