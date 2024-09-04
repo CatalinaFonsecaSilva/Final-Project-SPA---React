@@ -1,19 +1,23 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const SharedLayout = () => {
     return (
         <div>
-            <div className="hero-img">
+            {/* <div className="hero-img">
                 <h1>The Endless Yarn 🧶</h1>
-            </div>
+            </div> */}
+
+            <Link className="hero-img" to={"/"}>
+                <h1>The Endless Yarn 🧶</h1>
+            </Link>
             <Navbar />
             <Outlet />
             <footer>
                 <a
                     target="_blank"
-                    href="https://github.com/CatalinaFonsecaSilva/Final-Project-SPA-React"
+                    href="https://github.com/CatalinaF-S/Final-Project-SPA-React"
                 >
                     GitHub
                 </a>
