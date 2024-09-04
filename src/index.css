@@ -83,8 +83,8 @@ a:hover {
 /* 3. Hero */
 .hero-img {
     background-image: linear-gradient(
-            rgba(245, 217, 217, 0.5),
-            rgba(247, 242, 242, 0.5)
+            rgba(245, 217, 217, 0.3),
+            rgba(247, 242, 242, 0.3)
         ),
         url("/images/cozy-background-wallpaper-with-yarn-knitting_169016-6305.avif");
     background-position: center;
